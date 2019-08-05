@@ -1,0 +1,134 @@
+.customresponsive{
+	max-width: 100%;
+	margin: 10px 50px;
+}
+
+.view-page-qty-input{
+	width: 150px;
+}
+
+.view-product-img{
+	width: 70%;
+	height: 200px;
+}
+
+.empty-cart-button:hover, .empty-wishlist-button:hover{
+	background: orange;
+}
+
+.empty-cart-button, .empty-wishlist-button{
+	margin-bottom: 15px;
+}
+
+.cart-section, .wishlist-section{
+	background: skyblue;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.head{
+	background: skyblue;
+}
+
+.checkout-table{
+	background: yellow;
+}
+
+.checkout-table .checkout-products-foot tr th .word{
+	font-size: 21px;
+}
+
+.checkout-table .checkout-products-foot tr th .col{
+	background: green;
+	padding: 8px;
+}
+
+.checkout-page-title{
+	background: rgb(207, 207, 207);
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.your-orders, .shipping-details, .payment-details{
+	border: 4px solid red;
+	border-radius: 10px;
+	padding: 10px;
+	background: rgb(207, 207, 207);
+}
+
+.qty-input{
+	width: 100px;
+	display: inline-block;
+}
+
+.qty-update{
+	display: inline-block;
+}
+
+.remove-from-cart, .remove-from-wishlist{
+	margin-top: 4px;
+}
+
+.StripeElement {
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.register-form, .login-form{
+	margin-top: 50px;
+}
+
+.login-form{
+	max-width: 100%;
+}
+
+.customactive{
+	background: rgb(0, 255, 0);
+}
+
+.product-area{
+	margin-bottom: 15px;
+	border: 3px solid grey;
+	border-radius: 25px;
+	padding: 10px;
+	background: white;
+}
+
+.view-page-qty-submit, {
+	display: inline-block;
+}
+
+.might-also-like-products-row{
+	margin-top: -25px;
+}
+
+.user-menu{
+	background: rgb(157, 157, 0);
+}
+
+.admin-form{
+	margin-top: 25px;
+}

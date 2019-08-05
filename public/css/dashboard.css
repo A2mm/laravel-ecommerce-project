@@ -1,0 +1,301 @@
+body{
+	padding-top: 50px; 
+	margin: 0;
+	box-sizing: border-box;
+	background: #eee;
+}
+
+.navbar{
+	background: rgb(113, 0, 50); 
+	border-radius: 0;
+	margin-bottom: 0;
+	border: none;
+}
+.navbar .navbar-brand{
+	color: rgb(0, 128, 192);
+}
+
+.navbar .navbar-brand:hover{
+	color: red;
+}
+
+.navbar .navbar-collapse .navbar-nav li  a .admin-name, .navbar .navbar-collapse .navbar-nav li  a .caret{
+	color: rgb(0, 255, 0);
+}
+.navbar-nav li i{
+	font-size: 12px;
+}
+
+.admin-menu{
+	background: rgb(0, 249, 249);
+}
+
+.side-nav{
+	width: 100%;
+	height: 100vh;
+	background: rgb(128, 0, 64);
+	position: fixed;
+}
+
+.main-content{
+	max-width: 100%;
+}
+
+.category-panel, .brand-panel, .product-panel{
+	margin-top: 30px;
+}
+
+.category-panel .panel-heading, .brand-panel .panel-heading, .product-panel .panel-heading{
+	background: blue;
+}
+
+.panel-group .panel{
+	background: rgb(128, 0, 64);
+	border-color: rgb(128, 0, 64);
+}
+
+.panel-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-heading span{
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 15px;
+    color: grey;
+}
+
+.panel-heading i{
+    font-size: 13px;
+    color: rgb(0, 255, 255);
+}
+
+.panel-body{
+	background: rgb(192, 192, 192);
+}
+.panel-body ul li{
+	padding-top: 15px;
+}
+.panel-body ul li a{
+	color: rgb(0, 128, 0);
+	text-decoration: none;
+}
+@media(min-width: 901px)
+{
+	.side-nav{
+		width: 225px;
+	}
+	.main-content{
+	margin-left: 230px;
+}
+}
+
+@media(min-width: 786px) and (max-width: 900px)
+{
+	.side-nav{
+		width: 200px;
+	}
+	.main-content{
+	margin-left: 205px;
+}
+}
+
+@media(max-width: 785px)
+{
+	.side-nav{
+		width: 90px;
+	}
+	.main-content{
+	margin-left: 95px;
+    }
+
+    .panel-heading{
+    	padding-top: 5px;
+    	padding-bottom: 5px;
+    }
+
+    .panel-heading i{
+    	text-align: center;
+    	display: block;
+    }
+    .panel-heading span{
+    	text-align: center;
+    	font-size: 11px;
+    	display: block;
+    }
+}
+
+/*
+admin pages
+*/
+
+.view_product_page{
+	margin-top: 25px;
+}
+
+.view_product_row div{
+	margin-bottom: 5px;
+}
+
+.view_product_img{
+	border: 3px solid grey;
+	border-radius: 8px;
+	padding: 8px;
+	height: 230px;
+	width: 340px;
+}
+
+.view_category_row .row{
+	padding: 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+
+.view_brand_row .row{
+	padding: 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+
+.modal-header{
+	background: red;
+}
+
+.customresponsive{
+	max-width: 100%;
+	margin: 15px 50px;
+}
+
+.customer-details, .shipping-details, .order-details{
+	background: #eea;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.order-details{
+	margin-top: 25px;
+}
+
+.view_customer_page{
+	margin-top: 25px;
+}
+
+.view_customer_row .row{
+	margin-bottom: 15px;
+	padding-bottom: 11px;
+	border-bottom: 1px solid grey;
+}
+
+.view_customer_img{
+	border: 3px solid grey;
+	border-radius: 8px;
+	padding: 8px;
+	height: 200px;
+	width: 340px;
+}
+
+.dashboard-title{
+	font-family:  'helvatica', Helvatica;
+	background: skyblue;
+	font-style: italic;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 25px;
+	text-decoration: underline;
+	color: purple;
+}
+
+.home-stats{
+	max-width: 100%;
+}
+.add-product, .add-brand, .add-category{
+	margin-top: 25px;
+	max-width: 100%;
+}
+
+.help-block{
+	color: red;
+}
+.home-stats .stat{
+	background: #EEE;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.home-stats .stat-customers{
+	background: red;
+}
+
+.home-stats .stat-products{
+	background: orange;
+}
+
+.home-stats .stat-categories{
+	background: #c0392b;
+}
+
+.home-stats .stat-brands{
+	background: #d35400;
+}
+
+.home-stats .stat-sliders{
+	background: green;
+}
+
+.home-stats .stat-orders{
+	background: purple;
+}
+.home-stats .stat span{
+	display: block;
+	font-size: 50px;
+	color: white;
+}
+
+.slider-info{
+	max-width: 100%;
+}
+
+.img-info .row div:nth-child(1) p:first-child{
+	font-weight: bold;
+}
+
+.img-info .row .img-desc p{
+	line-height: 2;
+	text-align: justify;
+}
+
+.updating-slider{
+	max-width: 100%;
+	margin-top: 15px;
+}
+
+.view-customer-orders{
+background: rgb(192, 192, 192);
+padding: 15px;
+border: 1px solid grey;
+border-radius: 25px;
+margin-bottom: 15px;	
+}
+
+.orders-count{
+	font-size: 25px;
+	background: green;
+}
+
+.row-order{
+	background: rgb(149, 255, 149);
+}
+
+.categories-count, .brands-count, .products-count{
+	background: green;
+	font-size: 30px;
+}
+
+.dash-count{
+	background: yellow;
+}

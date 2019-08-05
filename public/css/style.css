@@ -1,0 +1,117 @@
+body{
+	background-color: #eee;
+	opacity: ;
+	margin: 0;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.navbar{
+	background: rgb(0, 140, 140);
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.navbar-brand .E{
+	color: red;
+}
+
+.navbar-brand .commerce{
+	color: rgb(0, 255, 0);
+}
+
+ .navbar-nav li a{ 
+ 	font-weight: bold;
+ 	font-size: 13px;
+ 	font-style: italic;
+	color: white;
+}
+
+.categories-menu, .brands-menu{
+	background: rgb(157, 157, 0);
+}
+
+.slider-row{
+	max-width: 100%;
+}
+
+.home-page-row{
+	max-width: 100%;
+	margin: 15px;
+}
+
+.product-price{
+	color:green;
+}
+
+.panel{
+	box-shadow: 15px 15px 15px grey;
+}
+.panel-heading, .panel-footer{
+	background: rgb(255, 128, 128);
+}
+
+.product-image{
+	width: 100%;
+	height: 100px;
+}
+
+.product-availability{
+	font-size: 19px;
+}
+
+.slider-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(128, 0, 128, 0.6);
+	z-index: 2;
+}
+
+.carousel-inner .item{
+	width: 100%;
+	z-index: 1;
+}
+
+
+.carousel-inner .item img{
+	width: 100%;
+	height: 350px;
+}
+
+.info-button{
+	padding: 10px;
+	border-bottom: 1px solid grey;
+}
+
+.adding-options{
+	margin-top: 10px;
+}
+
+.adding-slider{
+	max-width: 100%;
+	margin-top: 15px;
+}
+
+.carousel-caption{
+	font-size: 28px;
+	line-height: 2;
+	font-weight: bolder;
+	color: red;
+}
+
+@media(max-width: 768px){
+	.carousel-caption{
+	font-size: 18px;
+	line-height: 1;
+}
+}
+
+#error{
+	font-size: 100px;
+	text-align: center;
+	color: red;
