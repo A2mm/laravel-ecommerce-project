@@ -21,7 +21,7 @@ _______________________
 
 ## Installation
 
-    git clone https://github.com/A2mm/ecommerce-project.git
+    git clone https://github.com/A2mm/https://github.com/A2mm/laravel-ecommerce-project.git
     take copy of .env.example and name it as .env
     run composer install 
     php artisan key:generate
